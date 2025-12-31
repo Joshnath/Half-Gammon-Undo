@@ -6,4 +6,4 @@ Expanded a C++ program that added an undo feature that allows players to undo th
 - State management
 
 ## What is HalfGammon?
-Half Gammon is a simplified version of Backgammon, where the goal is to get all your checkers all the way around and then off the board. You do this by taking turns rolling the dice and moving your checker based on that dice value. If you land on a space that has only one of your opponent's checkers, you can send it back to the beginning in an action called "bumping". If you land on a spot that has two or more of your opponent's checkers, you are blocked, and your turn ends.
+Half Gammon is a simplified version of Backgammon where the goal is to move all of your checkers across the board and off the end to win. Players take turns rolling a die and moving one checker forward by that value. If you land on a space with exactly one opponent checker, you bump it into the bumped area and it must re-enter before that player can move other pieces. If a space has two or more opponent checkers, that space is blocked, so you can’t land there; if no legal moves are available for your roll, you lose your turn.
